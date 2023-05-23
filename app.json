@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "updaty",
+    "slug": "updaty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",   
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#d72c16"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apptitute.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#d72c16"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6fb51e7b-6113-4831-9cac-30f48f74e5f9"
+      }
+    }
+  },
+  "android": {
+    "permissions": [
+      "READ_CONTACTS",
+      "WRITE_CONTACTS"
+    ]
+  },
+  "react-native-google-mobile-ads": {
+    "ios_app_id": "ca-app-pub-8580824143358427~8104395596"
+  }
+}

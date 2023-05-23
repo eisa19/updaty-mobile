@@ -1,1 +1,1 @@
-# updaty-mobile
+# Updaty Mobile App
